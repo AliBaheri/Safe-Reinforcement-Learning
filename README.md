@@ -54,7 +54,7 @@ throughout the process.
 
 ## Ideas:
 
-* Virtual to real: Learn a policy in a simulator (which is safe), then transfer that behavior into a real self-driving car.
+* Virtual to real: Learn a safe policy in a simulator, then transfer that behavior into a real self-driving car.
    
 
 
