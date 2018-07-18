@@ -19,7 +19,7 @@
    * Key idea: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
    
 * [Safe Exploration in Finite Markov Decision Processes with Gaussian Processes](https://arxiv.org/pdf/1606.04753.pdf)
-   * Key idea:
+   * Key idea: This paper defines safety in terms of an, a priori unknown, safety constraint that depends on states and actions. The algorithm cautiously explores safe states and actions in order to gain statistical confidence about the safety of unvisited state-action pairs from noisy observations collected while navigating the environment. Moreover, the algorithm explicitly considers reachability when exploring the MDP, ensuring that it does not get stuck in any state with no safe way out.
    * [Video](https://www.youtube.com/watch?v=dHHh7CZQM_M)
    
 ## Survey papers:
