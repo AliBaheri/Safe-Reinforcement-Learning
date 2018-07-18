@@ -16,7 +16,7 @@
    * Key idea:
    
 * [Learning-based Model Predictive Control for Safe Exploration and Reinforcement Learning](https://arxiv.org/pdf/1803.08287.pdf)
-   * Key idea:
+   * Key idea: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system.
    
 ## Survey papers:
 
