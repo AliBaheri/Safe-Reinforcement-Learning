@@ -23,6 +23,10 @@
 * [Planning and Decision-Making for Autonomous Vehicles](https://www.annualreviews.org/doi/abs/10.1146/annurev-control-060117-105157)
 
 * [A Comprehensive Survey on Safe Reinforcement Learning](http://jmlr.org/papers/volume16/garcia15a/garcia15a.pdf)
+
+## Lectures:
+
+* [Safe Reinforcement Learning - Stanford CS234](https://web.stanford.edu/class/cs234/slides/2017/cs234_guest_lecture_safe_rl.pdf)
    
 
 
