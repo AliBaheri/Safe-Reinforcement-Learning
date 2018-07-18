@@ -26,7 +26,9 @@ a natural notion of full exploration.
 way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints.
    
 * [Safe Exploration for Optimization with Gaussian Processes](http://proceedings.mlr.press/v37/sui15.pdf)
-   * Key idea: 
+   * Key idea: This paper models a novel class of safe optimization problems as maximizing an unknown expected reward function      over the decision set from noisy samples. By exploiting regularity assumptions on the function, which capture the         intuition that similar decisions are associated with similar rewards, the gaol is to balance exploration
+(learning about the function) and exploitation (identifying near-optimal decisions), while additionally ensuring safety
+throughout the process. 
    
 * [Learning-based Model Predictive Control for Safe Exploration and Reinforcement Learning](https://arxiv.org/pdf/1803.08287.pdf)
    * Key idea: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
