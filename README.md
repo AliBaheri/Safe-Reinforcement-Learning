@@ -4,7 +4,10 @@
 ## Papers:
 
 * [Safe Learning of Regions of Attraction for Uncertain, Nonlinear Systems with Gaussian Processes](https://arxiv.org/pdf/1603.04915.pdf)
-   * Key idea:
+   * Key idea: This paper considers an approach that learns the region of attraction (ROA) from experiments on a real system, without ever leaving the true ROA and, thus, without risking safety-critical failures. Based on regularity assumptions on the model errors in terms of a Gaussian process prior, it uses an underlying Lyapunov function in order to determine a region in which an equilibrium point is asymptotically stable with high probability. Moreover, it provides an algorithm to actively and safely explore the state space in order to expand the ROA estimate.
+   
+  * [Video](https://www.youtube.com/watch?v=bSv-pNOWn7c)
+  
    
 * [Safe Model-based Reinforcement Learning with Stability Guarantees](https://arxiv.org/pdf/1705.08551.pdf)
    * Key idea:
