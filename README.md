@@ -12,6 +12,9 @@
 * [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf)
    * Key idea:
    
+* [Safe Exploration for Optimization with Gaussian Processes](http://proceedings.mlr.press/v37/sui15.pdf)
+   * Key idea:
+   
 ## Survey papers:
 
 * [Planning and Decision-Making for Autonomous Vehicles](https://www.annualreviews.org/doi/abs/10.1146/annurev-control-060117-105157)
