@@ -19,6 +19,8 @@
    * Key idea: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
    
 * [Safe Exploration in Finite Markov Decision Processes with Gaussian Processes](https://arxiv.org/pdf/1606.04753.pdf)
+   * Key idea:
+   * [Video](https://www.youtube.com/watch?v=dHHh7CZQM_M)
    
 ## Survey papers:
 
