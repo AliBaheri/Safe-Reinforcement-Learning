@@ -53,6 +53,8 @@ throughout the process.
 * [High Confidence Off-Policy Evaluation (HCOPE) - CMU 15-889e](http://www.cs.cmu.edu/~ebrun/15889e/lectures/thomas_lecture1_2.pdf)
 
 ## Ideas:
+
+* Virtual to real: Learn a policy in a simulator (which is safe), then transfer that behavior into a real self-driving car.
    
 
 
