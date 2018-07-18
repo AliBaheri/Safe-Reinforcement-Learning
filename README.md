@@ -13,7 +13,8 @@
    * Key idea:
    
 * [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf)
-   * Key idea:
+   * Key idea: This paper derives algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. The approach is based on a novel Lyapunov method. It defines and presents a method for constructing Lyapunov functions, which provide an effective
+way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints.
    
 * [Safe Exploration for Optimization with Gaussian Processes](http://proceedings.mlr.press/v37/sui15.pdf)
    * Key idea:
