@@ -1,5 +1,5 @@
 # Safe Reninforcement Learning:
-  * Key question:
+  * **Key question**:
   
 ## Papers:
 
