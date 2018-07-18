@@ -36,6 +36,10 @@ throughout the process.
    * **Key idea**: This paper defines safety in terms of an, a priori unknown, safety constraint that depends on states and actions. The algorithm cautiously explores safe states and actions in order to gain statistical confidence about the safety of unvisited state-action pairs from noisy observations collected while navigating the environment. Moreover, the algorithm explicitly considers reachability when exploring the MDP, ensuring that it does not get stuck in any state with no safe way out.
    * [Video](https://www.youtube.com/watch?v=dHHh7CZQM_M)
    
+* [Safe, Multi-Agent, Reinforcement Learning for Autonomous Driving](https://arxiv.org/pdf/1610.03295.pdf)
+   * **Key idea**:
+   * [Video](https://www.youtube.com/watch?v=cYTVXfIH0MU&t=1784s)
+   
 ## Survey papers:
 
 * [Planning and Decision-Making for Autonomous Vehicles](https://www.annualreviews.org/doi/pdf/10.1146/annurev-control-060117-105157)
