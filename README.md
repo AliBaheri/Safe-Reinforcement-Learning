@@ -10,14 +10,23 @@
   
    
 * [Safe Model-based Reinforcement Learning with Stability Guarantees](https://arxiv.org/pdf/1705.08551.pdf)
-   * Key idea:
+   * Key idea: This papers introduces a novel algorithm that can safely optimize policies in continuous
+state-action spaces while providing high-probability safety guarantees in terms of stability. Moreover,
+it shows that it is possible to exploit the regularity properties of the system in order to safely learn
+about the dynamics and thus improve the policy and increase the estimated safe region of attraction
+without ever leaving it. Specifically, starting from a policy that is known to stabilize the system
+locally, the algorithm gathers data at informative, safe points and improve the policy safely based on the improved
+model of the system and prove that any exploration algorithm that gathers data at these points reaches
+a natural notion of full exploration.
+
+  * [Video](https://www.youtube.com/watch?v=Xwu38vQb9Gk)
    
 * [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf)
    * Key idea: This paper derives algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. The approach is based on a novel Lyapunov method. It defines and presents a method for constructing Lyapunov functions, which provide an effective
 way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints.
    
 * [Safe Exploration for Optimization with Gaussian Processes](http://proceedings.mlr.press/v37/sui15.pdf)
-   * Key idea:
+   * Key idea: 
    
 * [Learning-based Model Predictive Control for Safe Exploration and Reinforcement Learning](https://arxiv.org/pdf/1803.08287.pdf)
    * Key idea: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
