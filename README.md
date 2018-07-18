@@ -27,6 +27,8 @@
 ## Lectures:
 
 * [Safe Reinforcement Learning - Stanford CS234](https://web.stanford.edu/class/cs234/slides/2017/cs234_guest_lecture_safe_rl.pdf)
+
+* [High Confidence Off-Policy Evaluation (HCOPE) - CMU]
    
 
 
