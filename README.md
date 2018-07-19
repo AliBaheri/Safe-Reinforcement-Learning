@@ -1,4 +1,4 @@
-# Safe Reninforcement Learning:
+# Safe reninforcement learning:
   * **Key question**: 
   
 ## Papers:
