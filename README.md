@@ -3,12 +3,6 @@
   
 ## Papers:
 
-* [Safe Learning of Regions of Attraction for Uncertain, Nonlinear Systems with Gaussian Processes](https://arxiv.org/pdf/1603.04915.pdf)
-   * **Key idea**: This paper considers an approach that learns the region of attraction (ROA) from experiments on a real system, without ever leaving the true ROA and, thus, without risking safety-critical failures. Based on regularity assumptions on the model errors in terms of a Gaussian process prior, it uses an underlying Lyapunov function in order to determine a region in which an equilibrium point is asymptotically stable with high probability. Moreover, it provides an algorithm to actively and safely explore the state space in order to expand the ROA estimate.
-   
-  * [Video](https://www.youtube.com/watch?v=bSv-pNOWn7c)
-  
-   
 * [Safe Model-based Reinforcement Learning with Stability Guarantees](https://arxiv.org/pdf/1705.08551.pdf)
    * **Key idea**: This paper introduces a novel algorithm that can safely optimize policies in continuous
 state-action spaces while providing high-probability safety guarantees in terms of stability. Moreover,
@@ -22,7 +16,12 @@ a natural notion of full exploration.
   * [Video](https://www.youtube.com/watch?v=Xwu38vQb9Gk)
   
   * [Slides](http://wrai.org/slides/Safe%20Reinforcement%20Learning%20in%20Robotics%20with%20Bayesian%20Models%20-%20Felix%20Berkenkamp.pdf)
+
+* [Safe Learning of Regions of Attraction for Uncertain, Nonlinear Systems with Gaussian Processes](https://arxiv.org/pdf/1603.04915.pdf)
+   * **Key idea**: This paper considers an approach that learns the region of attraction (ROA) from experiments on a real system, without ever leaving the true ROA and, thus, without risking safety-critical failures. Based on regularity assumptions on the model errors in terms of a Gaussian process prior, it uses an underlying Lyapunov function in order to determine a region in which an equilibrium point is asymptotically stable with high probability. Moreover, it provides an algorithm to actively and safely explore the state space in order to expand the ROA estimate.
    
+  * [Video](https://www.youtube.com/watch?v=bSv-pNOWn7c)
+  
 * [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf)
    * **Key idea**: This paper derives algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. The approach is based on a novel Lyapunov method. It defines and presents a method for constructing Lyapunov functions, which provide an effective way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints.
    
