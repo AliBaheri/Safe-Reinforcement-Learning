@@ -1,5 +1,5 @@
 # Safe reninforcement learning:
-  * **Key question**: 
+  * **Key question**: How to design an efficient and safe policy for an autonomous vehicle?
   
 ## Papers:
 
