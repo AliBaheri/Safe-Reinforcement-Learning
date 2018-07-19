@@ -10,7 +10,7 @@
   
    
 * [Safe Model-based Reinforcement Learning with Stability Guarantees](https://arxiv.org/pdf/1705.08551.pdf)
-   * **Key idea**: This papers introduces a novel algorithm that can safely optimize policies in continuous
+   * **Key idea**: This paper introduces a novel algorithm that can safely optimize policies in continuous
 state-action spaces while providing high-probability safety guarantees in terms of stability. Moreover,
 it shows that it is possible to exploit the regularity properties of the system in order to safely learn
 about the dynamics and thus improve the policy and increase the estimated safe region of attraction
@@ -30,7 +30,7 @@ a natural notion of full exploration.
 throughout the process. 
    
 * [Learning-based Model Predictive Control for Safe Exploration and Reinforcement Learning](https://arxiv.org/pdf/1803.08287.pdf)
-   * **Key idea**: The papers combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
+   * **Key idea**: This paper combines ideas from robust control and GP-based RL to design a MPC scheme that recursively   guarantees the existence of a safety trajectory that satisfies the constraints of the system. Particularly, it uses a novel uncertainty propagation technique that can reliably propagate the confidence intervals of a GP-model forward in time.
    
 * [Safe Exploration in Finite Markov Decision Processes with Gaussian Processes](https://arxiv.org/pdf/1606.04753.pdf)
    * **Key idea**: This paper defines safety in terms of an, a priori unknown, safety constraint that depends on states and actions. The algorithm cautiously explores safe states and actions in order to gain statistical confidence about the safety of unvisited state-action pairs from noisy observations collected while navigating the environment. Moreover, the algorithm explicitly considers reachability when exploring the MDP, ensuring that it does not get stuck in any state with no safe way out.
@@ -54,7 +54,7 @@ throughout the process.
 
 ## Ideas:
 
-* Virtual to real: Learn a safe policy in a simulator, then transfer that behavior into a real self-driving car.
+* Virtual to real: Someone can learn a safe policy in a simulator (which is always safe), then transfer that policy into a real world.
    
 
 
