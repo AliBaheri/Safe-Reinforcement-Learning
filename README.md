@@ -54,7 +54,7 @@ throughout the process.
 
 ## Ideas:
 
-* Virtual to real: Someone can learn a safe policy in a simulator (which is always safe), then transfer that policy into a real world.
+* **Virtual to real**: Someone can learn a safe policy in a simulator (which is always safe), then transfer that policy into a real world.
    
 
 
