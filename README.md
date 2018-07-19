@@ -20,6 +20,8 @@ model of the system and prove that any exploration algorithm that gathers data a
 a natural notion of full exploration.
 
   * [Video](https://www.youtube.com/watch?v=Xwu38vQb9Gk)
+  
+  * [Slides](http://wrai.org/slides/Safe%20Reinforcement%20Learning%20in%20Robotics%20with%20Bayesian%20Models%20-%20Felix%20Berkenkamp.pdf)
    
 * [A Lyapunov-based Approach to Safe Reinforcement Learning](https://arxiv.org/pdf/1805.07708.pdf)
    * **Key idea**: This paper derives algorithms under the framework of constrained Markov decision problems (CMDPs), an extension of the standard Markov decision problems (MDPs) augmented with constraints on expected cumulative costs. The approach is based on a novel Lyapunov method. It defines and presents a method for constructing Lyapunov functions, which provide an effective way to guarantee the global safety of a behavior policy during training via a set of local, linear constraints.
