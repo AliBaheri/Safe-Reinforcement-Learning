@@ -61,6 +61,7 @@ throughout the process.
   * Challenges:
     * How to deal with simulation mismatch?
       * Idea: Transfer learning comunity may provide some solution.
+        * [sim 2 real](https://katefvision.github.io/katefSlides/sim2real.pdf)
     * How to design a dafe controller?
       * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
     
