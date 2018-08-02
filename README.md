@@ -62,6 +62,8 @@ throughout the process.
     * How to deal with simulation mismatch?
       * Idea: Transfer learning comunity may provide some solution.
         * [sim 2 real](https://katefvision.github.io/katefSlides/sim2real.pdf)
+        * [Transfer from Simulation to Real World through
+Learning Deep Inverse Dynamics Model](https://arxiv.org/pdf/1610.03518.pdf)
     * How to design a dafe controller?
       * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
     
