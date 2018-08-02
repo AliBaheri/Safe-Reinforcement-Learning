@@ -62,7 +62,7 @@ throughout the process.
     * How to deal with simulation mismatch?
       * Idea: 
     * How to design a dafe controller?
-      * Idea: Verifying Controllers Against Adversarial Examples with Bayesian Optimization(https://arxiv.org/pdf/1802.08678.pdf)
+      * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
     
 
 
