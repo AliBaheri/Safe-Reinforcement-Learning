@@ -58,6 +58,11 @@ throughout the process.
 
 * **Virtual to real learnig**: Someone can learn a safe policy in a simulator (which is always safe), then transfer that policy into a real world.
 
+  * Challenges:
+    * How to deal with simulation dismatch?
+    * How to design a dafe controller?
+    
+
 
    
 
