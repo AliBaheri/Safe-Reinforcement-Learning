@@ -65,6 +65,9 @@ throughout the process.
         * [Transfer from Simulation to Real World through
 Learning Deep Inverse Dynamics Model](https://arxiv.org/pdf/1610.03518.pdf)
     * How to design a dafe controller?
+        * [Using Simulation to Improve Sample-Efficiency of Bayesian
+Optimization for Bipedal Robots](https://arxiv.org/pdf/1805.02732.pdf)
+
       * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
     
 
