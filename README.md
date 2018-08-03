@@ -72,6 +72,10 @@ Optimization for Bipedal Robots](https://arxiv.org/pdf/1805.02732.pdf)
       * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
       
  * Transfer from Simulation to Real World
+  
+ Some defintion:
+   * Forward dynamics: maps current state and action to a next state.
+   * Inverse dynamics: maps current and next state to an action that achieves the transition between the two.
     
 
 
