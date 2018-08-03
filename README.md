@@ -70,6 +70,8 @@ Optimization for Bipedal Robots](https://arxiv.org/pdf/1805.02732.pdf)
     * How to design a dafe controller?
         
       * Idea: [Verifying Controllers Against Adversarial Examples with Bayesian Optimization](https://arxiv.org/pdf/1802.08678.pdf)
+      
+ ** Transfer from Simulation to Real World
     
 
 
